@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         tv = findViewById(R.id.score);
+        if(savedInstanceState!=null){
+            // Means we have data
+            score = savedInstanceState.getInt("SCORE");
+            tv.setText(String.valueOf(score));
+        }
     }
 
     //for first button
@@ -31,4 +36,9 @@ public class MainActivity extends AppCompatActivity {
         tv.setText(String.valueOf(score));
     }
 
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("SCORE",score); // Stored the data before activity destruction
+    }
 }
