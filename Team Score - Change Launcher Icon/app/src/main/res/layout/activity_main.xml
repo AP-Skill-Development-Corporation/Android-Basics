@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_margin="@dimen/layout_margin"
+    tools:context=".MainActivity">
+
+    <Button
+        android:onClick="decrementScore"
+        android:layout_weight="1"
+        android:textColor="@color/btn_text_color"
+        android:background="@color/btn_background"
+        android:textSize="@dimen/btn_textsize"
+        android:text="@string/decrement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:background="@color/tv_background"
+        android:gravity="center"
+        android:text="@string/default_value"
+        android:textSize="@dimen/textview_text_size"
+        android:textStyle="bold" />
+
+    <Button
+        android:onClick="incrementScore"
+        android:layout_weight="1"
+        android:textColor="@color/btn_text_color"
+        android:background="@color/btn_background"
+        android:textSize="@dimen/btn_textsize"
+        android:text="@string/increment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
