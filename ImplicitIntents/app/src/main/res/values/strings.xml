@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="open_browser">Open Browser</string>
+    <string name="enter_a_url">Enter a URL</string>
+    <string name="enter_address">Enter Address</string>
+    <string name="open_maps">Open Maps</string>
+</resources>
