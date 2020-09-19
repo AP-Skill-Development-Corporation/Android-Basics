@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Registration Form</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_age">Enter age</string>
+    <string name="enter_address">Enter Address</string>
+    <string-array name="entries_of_spinner">
+        <item>Select Country</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>Australia</item>
+        <item>UK</item>
+    </string-array>
+</resources>
