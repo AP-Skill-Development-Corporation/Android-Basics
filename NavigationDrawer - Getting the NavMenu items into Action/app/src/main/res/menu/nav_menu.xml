@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="RED"
+        android:id="@+id/red"
+        android:icon="@drawable/first"/>
+
+    <item android:title="GREEN"
+        android:id="@+id/green"
+        android:icon="@drawable/second"/>
+
+    <item android:title="BLUE"
+        android:id="@+id/blue"
+        android:icon="@drawable/third"/>
+
+    <group android:id="@+id/group1">
+
+        <item android:id="@+id/dummy1"
+            android:title="Dummy Option 1"
+            android:icon="@drawable/dummy"/>
+
+        <item android:id="@+id/dummy2"
+            android:title="Dummy Option 2"
+            android:icon="@drawable/dummy"/>
+
+    </group>
+
+</menu>
