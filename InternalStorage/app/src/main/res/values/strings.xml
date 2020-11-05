@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Internal Storage</string>
+    <string name="hint1">Enter a Secret Message</string>
+</resources>
